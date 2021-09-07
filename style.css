@@ -128,7 +128,6 @@ body {
 }
 
 .footer{
-    height: 35vh;
     padding: 0 110px;
     padding-top: 50px;
     padding-bottom: 0;
@@ -182,7 +181,7 @@ body {
     color: rgb(134, 134, 134);
 }
 
-@media (max-width: 640px) {
+@media (min-width: 340px) and (max-width: 640px) {
     .header{
         width: 50%;
     }
@@ -200,5 +199,51 @@ body {
     }
     .boxContent{
         margin: 10px;
+        font-size: 1.1rem;
+    }
+    .footer{
+        padding: 0 20px;
+        padding-top: 50px;
+        font-size: 12px;
+    }
+    .imageBox{
+        height: 10px;
+    }
+    .fpart2{
+        margin-top: 10px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 340px){
+    .header{
+        width: 50%;
+    }
+    .imageCard{
+        width: 50%;
+    }
+    .h1 {
+      font-size: 1.5rem;
+    }
+    .mainArea{
+        padding: 35px 20px;
+    }
+    .container{
+        width: 250px;
+    }
+    .boxContent{
+        margin: 10px;
+        font-size: 0.9rem;
+    }
+    .footer{
+        padding: 0 20px;
+        padding-top: 50px;
+        font-size: 11px;
+    }
+    .imageBox{
+        height: 10px;
+    }
+    .fpart2{
+        margin-top: 10px;
+        font-size: 11px;
     }
 }
