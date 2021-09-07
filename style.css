@@ -187,6 +187,7 @@ body {
     }
     .imageCard{
         width: 50%;
+        height: 100%;
     }
     .h1 {
       font-size: 2.5rem;
@@ -206,11 +207,8 @@ body {
         padding-top: 50px;
         font-size: 12px;
     }
-    .imageBox{
-        height: 10px;
-    }
     .fpart2{
-        margin-top: 10px;
+        padding: 10px;
         font-size: 11px;
     }
 }
@@ -239,11 +237,8 @@ body {
         padding-top: 50px;
         font-size: 11px;
     }
-    .imageBox{
-        height: 10px;
-    }
     .fpart2{
-        margin-top: 10px;
+        padding: 10px;
         font-size: 11px;
     }
 }
