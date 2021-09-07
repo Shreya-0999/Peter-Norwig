@@ -58,6 +58,8 @@ body {
     padding: 35px 80px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -181,7 +183,22 @@ body {
 }
 
 @media (max-width: 640px) {
+    .header{
+        width: 50%;
+    }
+    .imageCard{
+        width: 50%;
+    }
     .h1 {
-      font-size: 20px;
+      font-size: 2.5rem;
+    }
+    .mainArea{
+        padding: 35px 30px;
+    }
+    .container{
+        width: 320px;
+    }
+    .boxContent{
+        margin: 10px;
     }
 }
