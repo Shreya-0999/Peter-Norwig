@@ -128,15 +128,21 @@ body {
 
 @media (min-width: 380px) and (max-width: 700px) {
     .header1{
-        width: 75%;
+        width: 65%;
         font-size: 18px;
     }
     .header2{
-        width: 15%;
-        height: 70%;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .headerImg{
+        max-width: 100%;
+        max-height: 100%;
     }
     .mainArea{
-        width: 100vw;
+        width: 90vw;
         font-size: 0.9rem;
     }
     .sidecontent{
@@ -144,6 +150,9 @@ body {
     }
     .sideimg{
         display: none;
+    }
+    .languageBox{
+        width: 90vw;
     }
 }
 
@@ -157,7 +166,7 @@ body {
         height: 70%;
     }
     .mainArea{
-        width: 100vw;
+        width: 90vw;
         font-size: 0.9rem;
     }
     .sidecontent{
@@ -165,5 +174,8 @@ body {
     }
     .sideimg{
         display: none;
+    }
+    .languageBox{
+        width: 90vw;
     }
 }
