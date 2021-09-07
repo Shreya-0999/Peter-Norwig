@@ -142,7 +142,7 @@ body {
         max-height: 100%;
     }
     .mainArea{
-        width: 90vw;
+        width: 100%;
         font-size: 0.9rem;
     }
     .sidecontent{
@@ -166,7 +166,7 @@ body {
         height: 70%;
     }
     .mainArea{
-        width: 90vw;
+        width: 100%;
         font-size: 0.9rem;
     }
     .sidecontent{
